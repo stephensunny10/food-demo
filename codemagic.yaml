@@ -6,3 +6,5 @@ workflows:
     scripts:
       - flutter pub get
       - flutter build ios --simulator
+    artifacts:
+      - build/ios/Runner.app # Path to the generated .app file
